@@ -1,0 +1,11 @@
+{
+  "type": "content",
+  "modid": "paints",
+  "name": "Paints",
+  "authors": [ "Sps" ],
+  "description": "Paint preparation and coloured planks",
+  "version": "1.0.0",
+  "dependency": {
+    "game": ""
+  }
+}
