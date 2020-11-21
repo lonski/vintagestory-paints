@@ -9,6 +9,12 @@
 		},
 		{
 			"code": "red"
+		},
+		{
+			"code": "green"
+		},
+		{
+			"code": "black"
 		}
 	]
 }

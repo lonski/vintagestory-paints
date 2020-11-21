@@ -18,5 +18,35 @@
 		"width": 1,
 		"height": 2,
 		"output": { "type": "item", "code": "pigment-red", "quantity": 1  }
+	},
+    {
+		"ingredientPattern": "H	S",
+		"ingredients": {
+			"H": { "type": "item", "code": "hammer-*", "isTool": true },
+			"S": { "type": "item", "code": "nugget-malachite" }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "pigment-green", "quantity": 1  }
+	},
+    {
+		"ingredientPattern": "H	S",
+		"ingredients": {
+			"H": { "type": "item", "code": "hammer-*", "isTool": true },
+			"S": { "type": "item", "code": "charcoal" }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "pigment-black", "quantity": 1  }
+	},
+    {
+		"ingredientPattern": "H	S",
+		"ingredients": {
+			"H": { "type": "item", "code": "hammer-*", "isTool": true },
+			"S": { "type": "item", "code": "ore-bituminouscoal" }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "pigment-black", "quantity": 1  }
 	}
 ]

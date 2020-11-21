@@ -23,12 +23,28 @@
 		],
 		"output": { "type": "block", "code": "paintedplankstairs-red-up-north-free", "stackSize": 1 }
     },
+    {
+		"code": "paintedplankstairs",
+		"ingredients": [
+			{ "type": "item", "code": "paintportion-green", "name": "paintcolour",  "quantity": 1, "consumeQuantity": 1},
+			{ "type": "block", "code": "plankstairs-*", "name": "planks", "quantity": 1}
+		],
+		"output": { "type": "block", "code": "paintedplankstairs-green-up-north-free", "stackSize": 1 }
+    },
+    {
+		"code": "paintedplankstairs",
+		"ingredients": [
+			{ "type": "item", "code": "paintportion-black", "name": "paintcolour",  "quantity": 1, "consumeQuantity": 1},
+			{ "type": "block", "code": "plankstairs-*", "name": "planks", "quantity": 1}
+		],
+		"output": { "type": "block", "code": "paintedplankstairs-black-up-north-free", "stackSize": 1 }
+    },
     
     {
 		"code": "paintedplankstairs",
 		"ingredients": [
 			{ "type": "item", "code": "paintportion-white", "quantity": 1, "consumeQuantity": 1},
-			{ "type": "block", "code": "paintedplankstairs-*-up-north-free", "name": "planks", "quantity": 1, "allowedVariants": ["blue", "red"]}
+            { "type": "block", "code": "paintedplankstairs-*-up-north-free", "name": "planks", "quantity": 1, "allowedVariants": ["blue", "red", "green", "black"]}
 		],
 		"output": { "type": "block", "code": "paintedplankstairs-white-up-north-free", "stackSize": 1 }
     },
@@ -36,7 +52,7 @@
 		"code": "paintedplankstairs",
 		"ingredients": [
 			{ "type": "item", "code": "paintportion-blue", "quantity": 1, "consumeQuantity": 1},
-			{ "type": "block", "code": "paintedplankstairs-*-up-north-free", "name": "planks", "quantity": 1, "allowedVariants": ["white", "red"]}
+			{ "type": "block", "code": "paintedplankstairs-*-up-north-free", "name": "planks", "quantity": 1, "allowedVariants": ["white", "red", "green", "black"]}
 		],
 		"output": { "type": "block", "code": "paintedplankstairs-blue-up-north-free", "stackSize": 1 }
 	},
@@ -44,9 +60,25 @@
 		"code": "paintedplankstairs",
 		"ingredients": [
 			{ "type": "item", "code": "paintportion-red", "quantity": 1, "consumeQuantity": 1},
-			{ "type": "block", "code": "paintedplankstairs-*-up-north-free", "name": "planks", "quantity": 1, "allowedVariants": ["white", "blue"]}
+			{ "type": "block", "code": "paintedplankstairs-*-up-north-free", "name": "planks", "quantity": 1, "allowedVariants": ["white", "blue", "green", "black"]}
 		],
 		"output": { "type": "block", "code": "paintedplankstairs-red-up-north-free", "stackSize": 1 }
+	},
+    {
+		"code": "paintedplankstairs",
+		"ingredients": [
+			{ "type": "item", "code": "paintportion-green", "quantity": 1, "consumeQuantity": 1},
+			{ "type": "block", "code": "paintedplankstairs-*-up-north-free", "name": "planks", "quantity": 1, "allowedVariants": ["white", "blue", "red", "black"]}
+		],
+		"output": { "type": "block", "code": "paintedplankstairs-green-up-north-free", "stackSize": 1 }
+	},
+    {
+		"code": "paintedplankstairs",
+		"ingredients": [
+			{ "type": "item", "code": "paintportion-black", "quantity": 1, "consumeQuantity": 1},
+			{ "type": "block", "code": "paintedplankstairs-*-up-north-free", "name": "planks", "quantity": 1, "allowedVariants": ["white", "blue", "red", "green"]}
+		],
+		"output": { "type": "block", "code": "paintedplankstairs-black-up-north-free", "stackSize": 1 }
 	}
 
 ]
