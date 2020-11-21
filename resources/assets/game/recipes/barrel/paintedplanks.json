@@ -1,0 +1,8 @@
+{
+	"code": "paintedplanks",
+	"ingredients": [
+		{ "type": "item", "code": "paintportion-*", "name": "paintcolour",  "quantity": 1 },
+		{ "type": "block", "code": "planks-*", "name": "planks", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "paintedplanks-{paintcolour}", "stackSize": 1 }
+}

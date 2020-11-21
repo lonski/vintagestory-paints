@@ -1,21 +1,24 @@
 {
-	"code": "whitepaintportion",
+	"code": "paintportion",
+	"variantgroups": [
+		{ "code": "paintcolour", "loadFromProperties": "block/paintcolour" }
+	],
 	"class": "ItemLiquidPortion",
 	"matterState": "liquid",
 	"attributes": {
 		"waterTightContainerProps": {
 			"containable": true,
 			"itemsPerLitre": 1,
-			"texture": { "base": "game:block/liquid/whitepaint" },
+			"texture": { "base": "game:block/liquid/{paintcolour}paint" },
 			"allowSpill": true,
 			"whenSpilled": { 
 				"action": "DropContents",
-				"stack": { "type": "item", "code": "whitepaintportion" } 
+				"stack": { "type": "item", "code": "paintportion-{paintcolour}" } 
 			}
 		}
 	},
 	"shape": { "base": "item/liquid" },
-	"texture": { "base": "game:block/liquid/whitepaint" },
+	"texture": { "base": "game:block/liquid/{paintcolour}paint" },
 	"creativeinventory": { "general": ["*"], "items": ["*"] },
 	"maxstacksize": 16,
 	"materialDensity": 200,

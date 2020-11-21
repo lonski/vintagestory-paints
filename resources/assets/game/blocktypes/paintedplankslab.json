@@ -1,5 +1,5 @@
 {
-	"code": "plankslabblue",
+	"code": "paintedplankslab",
 	"__comment": "This block class removes the bottom snow section from vertically standing slabs when there is no ground below",
 	"class": "BlockSlabSnowRemove",
 	"behaviors": [
@@ -12,15 +12,16 @@
 		}
     ],
 	"variantgroups": [
+		{ "code": "paintcolour", "loadFromProperties": "block/paintcolour" },
 		{ "code": "rot", "states": ["north", "east", "south", "west", "up", "down"] },
-		{ "code": "cover", "states": ["free", "snow"] }
+		{ "code": "cover", "states": ["free", "snow"] }		
 	],    
 	"skipVariants": ["*-up-snow"],
 	"attributes": {
 		"canChisel": true,
 		"chiselShapeFromCollisionBox": true,
 		"handbook": {
-			"groupBy": ["plankslab-*"]
+			"groupBy": ["paintedplankslab-*"]
 		},
 		"partialAttachableByType": {
 			"*-down": true,
@@ -31,14 +32,14 @@
 	"creativeinventory": {
 		"general": ["*-down-free"], "construction": ["*-down-free"]
 	},
-	"drops": [{ "code": "plankslabblue-down-free" }],
+	"drops": [{ "code": "paintedplankslab-{paintcolour}-down-free" }],
 	"shapeByType": {
 		"*-snow": { "base": "game:block/basic/slab/snow-slab-{rot}" },
 		"*": { "base": "game:block/basic/slab/slab-{rot}" }
 	},
 	"textures": {
 		"all": {
-			"base": "block/wood/planks/plankblue*"
+			"base": "block/wood/planks/plank{paintcolour}*"
 		}
 	},
 	"sideSolidOpaqueAoByType": {

@@ -1,15 +1,16 @@
 {
-	"code": "plankstairsblue",
+	"code": "paintedplankstairs",
 	"class": "BlockStairs",
 	"attributes": {
 		"canChisel": true,
 		"chiselShapeFromCollisionBox": true,
 		"handbook": {
-			"groupBy": ["plankstairs-*"]
+			"groupBy": ["paintedplankstairs-*"]
 		},
 		"partialAttachable": true
 	},
 	"variantgroups": [
+		{ "code": "paintcolour", "loadFromProperties": "block/paintcolour" },
 		{ "loadFromProperties": "abstract/verticalorientation" },
 		{ "loadFromProperties": "abstract/horizontalorientation" },
 		{ "code": "cover", "states": ["free", "snow"] }
@@ -37,14 +38,14 @@
 		"*-down-east-*": { "all":false, "up":true, "east": true }
 	},
 	"shapebytype": { 
-		"*-north-*": { "base": "game:block/basic/stairs/planks-{cover}-{verticalorientation}", "rotateY": 0 },
-		"*-west-*": { "base": "game:block/basic/stairs/planks-{cover}-{verticalorientation}", "rotateY": 90 },
-		"*-south-*": { "base": "game:block/basic/stairs/planks-{cover}-{verticalorientation}", "rotateY": 180 },
-		"*-east-*": { "base": "game:block/basic/stairs/planks-{cover}-{verticalorientation}", "rotateY": 270 }
+		"*-north-*": { "base": "block/basic/stairs/planks-{cover}-{verticalorientation}", "rotateY": 0 },
+		"*-west-*": { "base": "block/basic/stairs/planks-{cover}-{verticalorientation}", "rotateY": 90 },
+		"*-south-*": { "base": "block/basic/stairs/planks-{cover}-{verticalorientation}", "rotateY": 180 },
+		"*-east-*": { "base": "block/basic/stairs/planks-{cover}-{verticalorientation}", "rotateY": 270 }
 	},
 	"blockmaterial": "Wood",
 	"textures": {
-		"all": { "base": "block/wood/planks/plankblue1" }
+		"all": { "base": "block/wood/planks/plank{paintcolour}1" }
 	},
 	"lightAbsorption": 99,
 	"resistance": 3,

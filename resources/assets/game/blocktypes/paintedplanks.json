@@ -1,11 +1,14 @@
 {
-	"code": "plankblue",
+	"code": "paintedplanks",
+	"variantgroups": [
+		{ "code": "paintcolour", "loadFromProperties": "block/paintcolour" }
+	],
 	"creativeinventory": { "general": ["*"], "construction": ["*"] },
 	"shape": { "base": "game:block/basic/cube" },
 	"blockmaterial": "Wood",
 	"drawtype": "cube",
 	"textures": {
-		"all": { "base": "block/wood/planks/plankblue*" }
+		"all": { "base": "block/wood/planks/plank{paintcolour}*" }
 	},
 	"resistance": 3.5,
 	"sounds": {

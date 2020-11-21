@@ -1,0 +1,11 @@
+{
+	"Code": "paintcolour",
+	"variants": [
+		{
+			"Code": "white"
+		},
+		{
+			"Code": "blue"
+		}
+	]
+}
