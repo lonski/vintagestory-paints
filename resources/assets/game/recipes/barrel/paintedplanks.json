@@ -2,17 +2,26 @@
 	{
 		"code": "paintedplanks",
 		"ingredients": [
-			{ "type": "item", "code": "paintportion-*", "name": "paintcolour",  "quantity": 1, "consumeQuantity": 1},
+			{ "type": "item", "code": "paintportion-*", "name": "colour",  "quantity": 1, "consumeQuantity": 1},
 			{ "type": "block", "code": "planks-*", "name": "planks", "quantity": 1 }
 		],
-		"output": { "type": "block", "code": "paintedplanks-{paintcolour}", "stackSize": 1 }
+		"output": { "type": "block", "code": "paintedplanks-{colour}", "stackSize": 1 }
+	},
+
+	{
+		"code": "paintedplanks",
+		"ingredients": [
+			{ "type": "item", "code": "paintportion-white",  "quantity": 1, "consumeQuantity": 1},
+			{ "type": "block", "code": "paintedplanks-*", "name": "planks", "quantity": 1, "allowedVariants": ["blue"]}
+		],
+		"output": { "type": "block", "code": "paintedplanks-white", "stackSize": 1 }
 	},
 	{
 		"code": "paintedplanks",
 		"ingredients": [
-			{ "type": "item", "code": "paintportion-*", "name": "paintcolour",  "quantity": 1, "consumeQuantity": 1},
-			{ "type": "block", "code": "paintedplanks-*", "name": "planks", "quantity": 1, "allowedVariants": ["blue"] }
+			{ "type": "item", "code": "paintportion-blue",  "quantity": 1, "consumeQuantity": 1},
+			{ "type": "block", "code": "paintedplanks-*", "name": "planks", "quantity": 1, "allowedVariants": ["white"]}
 		],
-		"output": { "type": "block", "code": "paintedplanks-{paintcolour}", "stackSize": 1 }
+		"output": { "type": "block", "code": "paintedplanks-blue", "stackSize": 1 }
 	}
 ]
