@@ -1,0 +1,8 @@
+{
+	"code": "whitepaint",
+	"ingredients": [
+		{ "type": "item", "code": "game:limewaterportion",  "quantity": 10 },
+		{ "type": "item", "code": "game:fat", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "whitepaintportion", "stackSize": 10 }
+}
