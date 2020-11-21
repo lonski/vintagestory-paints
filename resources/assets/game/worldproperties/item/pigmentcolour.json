@@ -3,6 +3,9 @@
 	"variants": [
 		{
 			"code": "blue"
+        },
+        {
+			"code": "red"
 		}
 	]
 }

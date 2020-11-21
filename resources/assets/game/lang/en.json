@@ -1,18 +1,24 @@
 {
 	"block-paintedplanks-blue": "Planks painted blue",
 	"block-paintedplanks-white": "Planks painted white",
+	"block-paintedplanks-red": "Planks painted red",
 
 	"block-paintedplankslab-blue-*": "Plank slab painted blue",
 	"block-paintedplankslab-white-*": "Plank slab painted white",
+	"block-paintedplankslab-red-*": "Plank slab painted red",
 
 	"block-paintedplankstairs-blue-*": "Plank stairs painted blue",
 	"block-paintedplankstairs-white-*": "Plank stairs painted white",
+	"block-paintedplankstairs-red-*": "Plank stairs painted red",
 
 	"incontainer-item-paintportion-white": "White paint",
 	"incontainer-item-paintportion-blue": "Blue paint",
+	"incontainer-item-paintportion-red": "Blue paint",
 
 	"item-paintportion-white": "White paint portion (1 litre)",
 	"item-paintportion-blue": "Blue paint portion (1 litre)",
+	"item-paintportion-red": "Red paint portion (1 litre)",
 
+	"item-pigment-red": "Red pigment",
 	"item-pigment-blue": "Blue pigment"
 }

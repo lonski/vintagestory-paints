@@ -8,5 +8,15 @@
 		"width": 1,
 		"height": 2,
 		"output": { "type": "item", "code": "pigment-blue", "quantity": 1  }
+    },
+    {
+		"ingredientPattern": "H	S",
+		"ingredients": {
+			"H": { "type": "item", "code": "hammer-*", "isTool": true },
+			"S": { "type": "item", "code": "ore-cinnabar" }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "pigment-red", "quantity": 1  }
 	}
 ]
