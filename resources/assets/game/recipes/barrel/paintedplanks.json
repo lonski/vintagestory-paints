@@ -12,7 +12,7 @@
 		"code": "paintedplanks",
 		"ingredients": [
 			{ "type": "item", "code": "paintportion-white",  "quantity": 1, "consumeQuantity": 1},
-			{ "type": "block", "code": "paintedplanks-*", "name": "planks", "quantity": 1, "allowedVariants": ["blue", "red", "green", "black"]}
+			{ "type": "block", "code": "paintedplanks-*", "name": "planks", "quantity": 1, "allowedVariants": ["blue", "red", "green", "black", "yellow"]}
 		],
 		"output": { "type": "block", "code": "paintedplanks-white", "stackSize": 1 }
 	},
@@ -20,7 +20,7 @@
 		"code": "paintedplanks",
 		"ingredients": [
 			{ "type": "item", "code": "paintportion-blue",  "quantity": 1, "consumeQuantity": 1},
-			{ "type": "block", "code": "paintedplanks-*", "name": "planks", "quantity": 1, "allowedVariants": ["white", "red", "green", "black"]}
+			{ "type": "block", "code": "paintedplanks-*", "name": "planks", "quantity": 1, "allowedVariants": ["white", "red", "green", "black", "yellow"]}
 		],
 		"output": { "type": "block", "code": "paintedplanks-blue", "stackSize": 1 }
 	},
@@ -28,7 +28,7 @@
 		"code": "paintedplanks",
 		"ingredients": [
 			{ "type": "item", "code": "paintportion-red",  "quantity": 1, "consumeQuantity": 1},
-			{ "type": "block", "code": "paintedplanks-*", "name": "planks", "quantity": 1, "allowedVariants": ["white", "blue", "green", "black"]}
+			{ "type": "block", "code": "paintedplanks-*", "name": "planks", "quantity": 1, "allowedVariants": ["white", "blue", "green", "black", "yellow"]}
 		],
 		"output": { "type": "block", "code": "paintedplanks-red", "stackSize": 1 }
 	},
@@ -36,7 +36,7 @@
 		"code": "paintedplanks",
 		"ingredients": [
 			{ "type": "item", "code": "paintportion-green",  "quantity": 1, "consumeQuantity": 1},
-			{ "type": "block", "code": "paintedplanks-*", "name": "planks", "quantity": 1, "allowedVariants": ["white", "blue", "red", "black"]}
+			{ "type": "block", "code": "paintedplanks-*", "name": "planks", "quantity": 1, "allowedVariants": ["white", "blue", "red", "black", "yellow"]}
 		],
 		"output": { "type": "block", "code": "paintedplanks-green", "stackSize": 1 }
 	},
@@ -44,8 +44,16 @@
 		"code": "paintedplanks",
 		"ingredients": [
 			{ "type": "item", "code": "paintportion-black",  "quantity": 1, "consumeQuantity": 1},
-			{ "type": "block", "code": "paintedplanks-*", "name": "planks", "quantity": 1, "allowedVariants": ["white", "blue", "red", "green"]}
+			{ "type": "block", "code": "paintedplanks-*", "name": "planks", "quantity": 1, "allowedVariants": ["white", "blue", "red", "green", "yellow"]}
 		],
 		"output": { "type": "block", "code": "paintedplanks-black", "stackSize": 1 }
+	},
+	{
+		"code": "paintedplanks",
+		"ingredients": [
+			{ "type": "item", "code": "paintportion-yellow",  "quantity": 1, "consumeQuantity": 1},
+			{ "type": "block", "code": "paintedplanks-*", "name": "planks", "quantity": 1, "allowedVariants": ["white", "blue", "red", "green", "black"]}
+		],
+		"output": { "type": "block", "code": "paintedplanks-yellow", "stackSize": 1 }
 	}
 ]

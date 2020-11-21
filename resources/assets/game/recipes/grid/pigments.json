@@ -48,5 +48,15 @@
 		"width": 1,
 		"height": 2,
 		"output": { "type": "item", "code": "pigment-black", "quantity": 1  }
+	},
+    {
+		"ingredientPattern": "H	S",
+		"ingredients": {
+			"H": { "type": "item", "code": "hammer-*", "isTool": true },
+			"S": { "type": "item", "code": "ore-sulfur" }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "pigment-yellow", "quantity": 1  }
 	}
 ]
