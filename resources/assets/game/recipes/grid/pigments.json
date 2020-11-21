@@ -1,0 +1,12 @@
+[
+	{
+		"ingredientPattern": "H	S",
+		"ingredients": {
+			"H": { "type": "item", "code": "hammer-*", "isTool": true },
+			"S": { "type": "item", "code": "ore-lapislazuli" }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "pigment-blue", "quantity": 1  }
+	}
+]

@@ -1,11 +1,11 @@
 {
-	"Code": "paintcolour",
+	"code": "paintcolour",
 	"variants": [
 		{
-			"Code": "white"
+			"code": "white"
 		},
 		{
-			"Code": "blue"
+			"code": "blue"
 		}
 	]
 }

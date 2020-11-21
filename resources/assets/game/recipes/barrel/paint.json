@@ -1,8 +1,18 @@
-{
-	"code": "paintwhite",
-	"ingredients": [
-		{ "type": "item", "code": "game:limewaterportion",  "quantity": 10 },
-		{ "type": "item", "code": "game:fat", "quantity": 1 }
-	],
-	"output": { "type": "item", "code": "paintportion-white", "stackSize": 10 }
-}
+[
+	{
+		"code": "paintwhite",
+		"ingredients": [
+			{ "type": "item", "code": "limewaterportion",  "quantity": 10 },
+			{ "type": "item", "code": "fat", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "paintportion-white", "stackSize": 10 }
+	},
+	{
+		"code": "paint",
+		"ingredients": [
+			{ "type": "item", "code": "paintportion-white",  "quantity": 10 },
+			{ "type": "item", "code": "pigment-*", "name": "pigmentcolour", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "paintportion-{pigmentcolour}", "stackSize": 10 }
+	}
+]

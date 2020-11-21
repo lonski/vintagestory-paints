@@ -1,0 +1,13 @@
+{
+    "code": "pigment",
+	"variantgroups": [
+		{ "code": "colour", "loadFromProperties": "item/pigmentcolour" }
+	],
+	"attributes": {
+		"dissolveInWater": true
+	},
+	"texture": { "base": "item/resource/pigment{colour}" },
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"maxstacksize": 64,
+	"materialDensity": 900
+}
