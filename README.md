@@ -43,3 +43,14 @@ To create coloured paint mix 1 pigment with 10 litres of white paint.
 Simply put planks / plank slabs / plank stairs into a barrel with paint. One plank will consume 1 litre of paint.
 
 ![Painting planks](screenshots/paintingplanks.png)
+
+# Roadmap
+
+ - Allow pigment mixing to introduce more colours
+ - Brush tool to paint existing blocks
+ - More paintable blocks
+
+# Bugs and feature requests reporting 
+
+Please create an issue at
+https://github.com/lonski/vintagestory-paints/issues
