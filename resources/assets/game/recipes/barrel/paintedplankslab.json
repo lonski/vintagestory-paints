@@ -2,25 +2,16 @@
     {
 		"code": "paintedplankslab",
 		"ingredients": [
-			{ "type": "item", "code": "paintportion-*", "name": "paintcolour",  "quantity": 1, "consumeQuantity": 1},
-			{ "type": "block", "code": "plankslab-*", "name": "planks", "quantity": 1 }
-		],
-		"output": { "type": "block", "code": "paintedplankslab-{paintcolour}-down-free", "stackSize": 1 }
-    },
-
-	{
-		"code": "paintedplankslab",
-		"ingredients": [
 			{ "type": "item", "code": "paintportion-white", "quantity": 1, "consumeQuantity": 1},
-			{ "type": "block", "code": "paintedplankslab-*-down-free", "name": "planks", "quantity": 1, "allowedVariants": ["blue", "red", "green", "black", "yellow"]}
+			{ "type": "block", "code": "plankslab-*", "name": "planks", "quantity": 1 }
 		],
 		"output": { "type": "block", "code": "paintedplankslab-white-down-free", "stackSize": 1 }
     },
-	{
+    {
 		"code": "paintedplankslab",
 		"ingredients": [
 			{ "type": "item", "code": "paintportion-blue", "quantity": 1, "consumeQuantity": 1},
-			{ "type": "block", "code": "paintedplankslab-*-down-free", "name": "planks", "quantity": 1, "allowedVariants": ["white", "red", "green", "black", "yellow"]}
+			{ "type": "block", "code": "plankslab-*", "name": "planks", "quantity": 1 }
 		],
 		"output": { "type": "block", "code": "paintedplankslab-blue-down-free", "stackSize": 1 }
     },
@@ -28,7 +19,7 @@
 		"code": "paintedplankslab",
 		"ingredients": [
 			{ "type": "item", "code": "paintportion-red", "quantity": 1, "consumeQuantity": 1},
-			{ "type": "block", "code": "paintedplankslab-*-down-free", "name": "planks", "quantity": 1, "allowedVariants": ["white", "blue", "green", "black", "yellow"]}
+			{ "type": "block", "code": "plankslab-*", "name": "planks", "quantity": 1 }
 		],
 		"output": { "type": "block", "code": "paintedplankslab-red-down-free", "stackSize": 1 }
     },
@@ -36,7 +27,7 @@
 		"code": "paintedplankslab",
 		"ingredients": [
 			{ "type": "item", "code": "paintportion-green", "quantity": 1, "consumeQuantity": 1},
-			{ "type": "block", "code": "paintedplankslab-*-down-free", "name": "planks", "quantity": 1, "allowedVariants": ["white", "blue", "red", "black", "yellow"]}
+			{ "type": "block", "code": "plankslab-*", "name": "planks", "quantity": 1 }
 		],
 		"output": { "type": "block", "code": "paintedplankslab-green-down-free", "stackSize": 1 }
     },
@@ -44,7 +35,7 @@
 		"code": "paintedplankslab",
 		"ingredients": [
 			{ "type": "item", "code": "paintportion-black", "quantity": 1, "consumeQuantity": 1},
-			{ "type": "block", "code": "paintedplankslab-*-down-free", "name": "planks", "quantity": 1, "allowedVariants": ["white", "blue", "red", "green", "yellow"]}
+			{ "type": "block", "code": "plankslab-*", "name": "planks", "quantity": 1 }
 		],
 		"output": { "type": "block", "code": "paintedplankslab-black-down-free", "stackSize": 1 }
     },
@@ -52,8 +43,80 @@
 		"code": "paintedplankslab",
 		"ingredients": [
 			{ "type": "item", "code": "paintportion-yellow", "quantity": 1, "consumeQuantity": 1},
-			{ "type": "block", "code": "paintedplankslab-*-down-free", "name": "planks", "quantity": 1, "allowedVariants": ["white", "blue", "red", "green", "black"]}
+			{ "type": "block", "code": "plankslab-*", "name": "planks", "quantity": 1 }
 		],
 		"output": { "type": "block", "code": "paintedplankslab-yellow-down-free", "stackSize": 1 }
+    },
+	{
+		"code": "paintedplankslab",
+		"ingredients": [
+			{ "type": "item", "code": "paintportion-purple", "quantity": 1, "consumeQuantity": 1},
+			{ "type": "block", "code": "plankslab-*", "name": "planks", "quantity": 1 }
+		],
+		"output": { "type": "block", "code": "paintedplankslab-purple-down-free", "stackSize": 1 }
+	},
+	
+
+
+
+
+
+
+
+	{
+		"code": "paintedplankslab",
+		"ingredients": [
+			{ "type": "item", "code": "paintportion-white", "quantity": 1, "consumeQuantity": 1},
+			{ "type": "block", "code": "paintedplankslab-*-down-free", "name": "planks", "quantity": 1, "allowedVariants": ["blue", "red", "green", "black", "yellow", "purple"]}
+		],
+		"output": { "type": "block", "code": "paintedplankslab-white-down-free", "stackSize": 1 }
+    },
+	{
+		"code": "paintedplankslab",
+		"ingredients": [
+			{ "type": "item", "code": "paintportion-blue", "quantity": 1, "consumeQuantity": 1},
+			{ "type": "block", "code": "paintedplankslab-*-down-free", "name": "planks", "quantity": 1, "allowedVariants": ["white", "red", "green", "black", "yellow", "purple"]}
+		],
+		"output": { "type": "block", "code": "paintedplankslab-blue-down-free", "stackSize": 1 }
+    },
+	{
+		"code": "paintedplankslab",
+		"ingredients": [
+			{ "type": "item", "code": "paintportion-red", "quantity": 1, "consumeQuantity": 1},
+			{ "type": "block", "code": "paintedplankslab-*-down-free", "name": "planks", "quantity": 1, "allowedVariants": ["white", "blue", "green", "black", "yellow", "purple"]}
+		],
+		"output": { "type": "block", "code": "paintedplankslab-red-down-free", "stackSize": 1 }
+    },
+	{
+		"code": "paintedplankslab",
+		"ingredients": [
+			{ "type": "item", "code": "paintportion-green", "quantity": 1, "consumeQuantity": 1},
+			{ "type": "block", "code": "paintedplankslab-*-down-free", "name": "planks", "quantity": 1, "allowedVariants": ["white", "blue", "red", "black", "yellow", "purple"]}
+		],
+		"output": { "type": "block", "code": "paintedplankslab-green-down-free", "stackSize": 1 }
+    },
+	{
+		"code": "paintedplankslab",
+		"ingredients": [
+			{ "type": "item", "code": "paintportion-black", "quantity": 1, "consumeQuantity": 1},
+			{ "type": "block", "code": "paintedplankslab-*-down-free", "name": "planks", "quantity": 1, "allowedVariants": ["white", "blue", "red", "green", "yellow", "purple"]}
+		],
+		"output": { "type": "block", "code": "paintedplankslab-black-down-free", "stackSize": 1 }
+    },
+	{
+		"code": "paintedplankslab",
+		"ingredients": [
+			{ "type": "item", "code": "paintportion-yellow", "quantity": 1, "consumeQuantity": 1},
+			{ "type": "block", "code": "paintedplankslab-*-down-free", "name": "planks", "quantity": 1, "allowedVariants": ["white", "blue", "red", "green", "black", "purple"]}
+		],
+		"output": { "type": "block", "code": "paintedplankslab-yellow-down-free", "stackSize": 1 }
+    },
+	{
+		"code": "paintedplankslab",
+		"ingredients": [
+			{ "type": "item", "code": "paintportion-purple", "quantity": 1, "consumeQuantity": 1},
+			{ "type": "block", "code": "paintedplankslab-*-down-free", "name": "planks", "quantity": 1, "allowedVariants": ["white", "blue", "red", "green", "black", "yellow"]}
+		],
+		"output": { "type": "block", "code": "paintedplankslab-purple-down-free", "stackSize": 1 }
     }
 ]
