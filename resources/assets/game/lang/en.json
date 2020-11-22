@@ -6,6 +6,7 @@
 	"block-paintedplanks-black": "Planks painted black",
 	"block-paintedplanks-yellow": "Planks painted yellow",
 	"block-paintedplanks-purple": "Planks painted purple",
+	"block-paintedplanks-grey": "Planks painted grey",
 
 	"block-paintedplankslab-blue-*": "Plank slab painted blue",
 	"block-paintedplankslab-white-*": "Plank slab painted white",
@@ -14,6 +15,7 @@
 	"block-paintedplankslab-black-*": "Plank slab painted black",
 	"block-paintedplankslab-yellow-*": "Plank slab painted yellow",
 	"block-paintedplankslab-purple-*": "Plank slab painted purple",
+	"block-paintedplankslab-grey-*": "Plank slab painted grey",
 
 	"block-paintedplankstairs-blue-*": "Plank stairs painted blue",
 	"block-paintedplankstairs-white-*": "Plank stairs painted white",
@@ -22,6 +24,7 @@
 	"block-paintedplankstairs-black-*": "Plank stairs painted black",
 	"block-paintedplankstairs-yellow-*": "Plank stairs painted yellow",
 	"block-paintedplankstairs-purple-*": "Plank stairs painted purple",
+	"block-paintedplankstairs-grey-*": "Plank stairs painted grey",
 
 	"incontainer-item-paintportion-white": "White paint",
 	"incontainer-item-paintportion-blue": "Blue paint",
@@ -30,6 +33,7 @@
 	"incontainer-item-paintportion-black": "Black paint",
 	"incontainer-item-paintportion-yellow": "Yellow paint",
 	"incontainer-item-paintportion-purple": "Purple paint",
+	"incontainer-item-paintportion-grey": "Grey paint",
 
 	"item-paintportion-white": "White paint portion (1 litre)",
 	"item-paintportion-blue": "Blue paint portion (1 litre)",
@@ -38,11 +42,13 @@
 	"item-paintportion-black": "Black paint portion (1 litre)",
 	"item-paintportion-yellow": "Yellow paint portion (1 litre)",
 	"item-paintportion-purple": "Purple paint portion (1 litre)",
+	"item-paintportion-grey": "Grey paint portion (1 litre)",
 
 	"item-pigment-red": "Red pigment",
 	"item-pigment-green": "Green pigment",
 	"item-pigment-blue": "Blue pigment",
 	"item-pigment-yellow": "Yellow pigment",
 	"item-pigment-black": "Black pigment",
-	"item-pigment-purple": "Purple pigment"
+	"item-pigment-purple": "Purple pigment",
+	"item-pigment-grey": "Grey pigment"
 }
