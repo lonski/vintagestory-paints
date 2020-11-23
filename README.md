@@ -28,6 +28,7 @@ Simply put planks / plank slabs / plank stairs into a barrel with paint. One pla
 # Roadmap
 
  - Brush tool to paint existing blocks
+ - Use shader effect to apply the paint on block instead of custom textures
  - More paintable blocks (fences, doors?)
 
 # Bugs and feature requests reporting 
