@@ -3,7 +3,7 @@ A VintageStory Mod that adds paint preparation and coloured planks
 
 ## New blocks
 
-Planks, plank slabs, plank stairs in nine new colours: white, black, red, green, blue, yellow, orange, grey, purple, dark green.
+Planks, plank slabs, plank stairs new colours: white, black, red, green, blue, yellow, orange, grey, purple, dark green.
 
 ![New blocks](screenshots/newblocks.png)
 
