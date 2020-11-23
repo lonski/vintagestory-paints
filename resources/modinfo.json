@@ -4,7 +4,7 @@
   "name": "Paints",
   "authors": [ "Sps" ],
   "description": "Paint preparation and coloured planks",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "dependency": {
     "game": ""
   }
