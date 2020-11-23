@@ -7,6 +7,8 @@
 	"block-paintedplanks-yellow": "Planks painted yellow",
 	"block-paintedplanks-purple": "Planks painted purple",
 	"block-paintedplanks-grey": "Planks painted grey",
+	"block-paintedplanks-orange": "Planks painted orange",
+	"block-paintedplanks-darkgreen": "Planks painted dark green",
 
 	"block-paintedplankslab-blue-*": "Plank slab painted blue",
 	"block-paintedplankslab-white-*": "Plank slab painted white",
@@ -16,6 +18,8 @@
 	"block-paintedplankslab-yellow-*": "Plank slab painted yellow",
 	"block-paintedplankslab-purple-*": "Plank slab painted purple",
 	"block-paintedplankslab-grey-*": "Plank slab painted grey",
+	"block-paintedplankslab-orange-*": "Plank slab painted orange",
+	"block-paintedplankslab-darkgreen-*": "Plank slab painted dark green",
 
 	"block-paintedplankstairs-blue-*": "Plank stairs painted blue",
 	"block-paintedplankstairs-white-*": "Plank stairs painted white",
@@ -25,6 +29,8 @@
 	"block-paintedplankstairs-yellow-*": "Plank stairs painted yellow",
 	"block-paintedplankstairs-purple-*": "Plank stairs painted purple",
 	"block-paintedplankstairs-grey-*": "Plank stairs painted grey",
+	"block-paintedplankstairs-orange-*": "Plank stairs painted orange",
+	"block-paintedplankstairs-darkgreen-*": "Plank stairs painted dark green",
 
 	"incontainer-item-paintportion-white": "White paint",
 	"incontainer-item-paintportion-blue": "Blue paint",
@@ -34,6 +40,8 @@
 	"incontainer-item-paintportion-yellow": "Yellow paint",
 	"incontainer-item-paintportion-purple": "Purple paint",
 	"incontainer-item-paintportion-grey": "Grey paint",
+	"incontainer-item-paintportion-orange": "Orange paint",
+	"incontainer-item-paintportion-dark-green": "Dark green paint",
 
 	"item-paintportion-white": "White paint portion (1 litre)",
 	"item-paintportion-blue": "Blue paint portion (1 litre)",
@@ -43,6 +51,8 @@
 	"item-paintportion-yellow": "Yellow paint portion (1 litre)",
 	"item-paintportion-purple": "Purple paint portion (1 litre)",
 	"item-paintportion-grey": "Grey paint portion (1 litre)",
+	"item-paintportion-orange": "Orange paint portion (1 litre)",
+	"item-paintportion-darkgreen": "Dark green paint portion (1 litre)",
 
 	"item-pigment-red": "Red pigment",
 	"item-pigment-green": "Green pigment",
@@ -50,5 +60,7 @@
 	"item-pigment-yellow": "Yellow pigment",
 	"item-pigment-black": "Black pigment",
 	"item-pigment-purple": "Purple pigment",
-	"item-pigment-grey": "Grey pigment"
+	"item-pigment-grey": "Grey pigment",
+	"item-pigment-orange": "Orange pigment",
+	"item-pigment-darkgreen": "Dark green pigment"
 }

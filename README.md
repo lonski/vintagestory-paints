@@ -3,32 +3,13 @@ A VintageStory Mod that adds paint preparation and coloured planks
 
 ## New blocks
 
-Planks, plank slabs, plank stairs in six new colours: white, black, red, green, blue, yellow.
+Planks, plank slabs, plank stairs in nine new colours: white, black, red, green, blue, yellow, orange, grey, purple, dark green.
 
 ![New blocks](screenshots/newblocks.png)
 
 ## Pigments
 
-To create pigment use hammer to crush: 
- - coal/charcoal (black)
- 
- ![Black pigment coal](screenshots/blackpigment.png) ![Black pigment charcoal](screenshots/blackpigment2.png)
- 
- - lapis lazuli (blue)
- 
- ![Blue pigment](screenshots/bluepigment.png)
- 
- - cinnabar (red)
- 
- ![Red pigment](screenshots/redpigment.png)
- 
- - malachite (green)
- 
- ![Green pigment](screenshots/greenpigment.png)
- 
- - sulfur (yellow)
- 
- ![Yellow pigment](screenshots/yellowpigment.png)
+![Pigments](screenshots/pigments.png)
 
 ## Paint preparation
 
@@ -46,9 +27,8 @@ Simply put planks / plank slabs / plank stairs into a barrel with paint. One pla
 
 # Roadmap
 
- - Allow pigment mixing to introduce more colours
  - Brush tool to paint existing blocks
- - More paintable blocks
+ - More paintable blocks (fences, doors?)
 
 # Bugs and feature requests reporting 
 

@@ -21,6 +21,12 @@
 		},
         {
 			"code": "grey"
+		},
+        {
+			"code": "orange"
+		},
+        {
+			"code": "darkgreen"
 		}
 	]
 }
