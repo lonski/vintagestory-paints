@@ -1,0 +1,8 @@
+[
+	{
+		"code": "paintedPlanksColorMap",
+		"texture": { "base": "environment/paintedplankstint" },
+		"padding": 4,
+		"loadIntoBlockTextureAtlas": true
+	}
+]

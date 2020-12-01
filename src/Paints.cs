@@ -16,18 +16,25 @@ namespace Paints
 	{
 		public override void Start(ICoreAPI api)
 		{
+			// api.RegisterBlockEntityClass("PaintedPlanks", typeof(BEPaintedPlanks));
 		}
 
 		public override void StartPre(ICoreAPI api)
         {
+			// api.RegisterBlockEntityClass("PaintedPlanks", typeof(BEPaintedPlanks));
         }
 		
 		public override void StartClientSide(ICoreClientAPI api)
-		{		
+		{
+			api.RegisterBlockClass("PaintedPlanks", typeof(PaintedPlanks));
+			// api.RegisterBlockEntityClass("PaintedPlanks", typeof(BEPaintedPlanks));
+			// api.RegisterEntityRendererClass("PaintedPlanks", typeof(PaintedPlanksRenderer));
 		}
 		
 		public override void StartServerSide(ICoreServerAPI api)
 		{				
+			api.RegisterBlockClass("PaintedPlanks", typeof(PaintedPlanks));
+			// api.RegisterBlockEntityClass("PaintedPlanks", typeof(BEPaintedPlanks));
 		}
 	}
 }

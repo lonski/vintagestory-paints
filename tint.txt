@@ -1,0 +1,25 @@
+you could store a x/y color map coordinate for each block variant
+[2:17 PM]
+and then in Block.OnJsonTesselation() set the color map data to that x/y coordinate
+[2:17 PM]
+plus add a new colormap entry into the config/colormaps.json for all your colors
+[2:19 PM]
+hm
+[2:19 PM]
+a bit tricky code
+[2:22 PM]
+in Block.OnJsonTesselation()
+
+loop over meshData.CustomInts and set it to 
+meshData.CustomInts.Values[i] &= ~(0xffff << 16);
+meshData.CustomInts.Values[i] |= (x << 16) | (y << 24);
+
+
+x/y goes from 0..255 and is rescaled to the width/height of the color map png. So you'd want each color to be along the width of the png file. (and you'd want to read the x value from Block.Attributes, ideally pre-initialized into a block field as int in Block.OnLoaded()
+y is for random variation, so you could set it to always 0 for starters(edited)
+[2:22 PM]
+and your block type needs to define that it uses your colormap code as defined in colormaps.json
+[2:22 PM]
+see other tinted blocks for references
+[2:24 PM]
+see also ColorMapData class in the api repository
