@@ -1,7 +1,7 @@
 {
 	"code": "paintedplankslab",
 	"__comment": "This block class removes the bottom snow section from vertically standing slabs when there is no ground below",
-	"class": "BlockSlabSnowRemove",
+	"class": "PaintedPlanks",
 	"behaviors": [
 		{
 			"name": "OmniRotatable",

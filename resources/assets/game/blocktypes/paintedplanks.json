@@ -14,7 +14,7 @@
 		"general": [ "*" ],
 		"construction": [ "*" ]
 	},
-	"shape": { "base": "block/basic/piantedcube" },
+	"shape": { "base": "game:block/basic/piantedcube" },
 	"blockmaterial": "Wood",
 	"drawtype": "cube",
 	"textures": {

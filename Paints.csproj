@@ -7,10 +7,14 @@
 		<Description>Vintage Story mod which adds paint preparation and coloured planks</Description>
 		<RepositoryUrl>https://github.com/lonski/vintagestory-paints</RepositoryUrl>
 		
-		<TargetFramework>net452</TargetFramework>
+		<TargetFramework>net500</TargetFramework>
 		<LangVersion>latest</LangVersion>
 	</PropertyGroup>
 	<ItemGroup>
+	    <Reference Include="Newtonsoft.Json">
+      <HintPath>$(VINTAGE_STORY)\Lib\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
 		<Reference Include="VintagestoryAPI">
 			<HintPath>$(VINTAGE_STORY)/VintagestoryAPI.dll</HintPath>
 		</Reference>
@@ -25,4 +29,5 @@
 		<Copy SourceFiles="$(TargetPath)" DestinationFolder="$(VINTAGE_STORY_DATA)/Mods" />
 		<Copy SourceFiles="$(TargetDir)/$(TargetName).pdb" DestinationFolder="$(VINTAGE_STORY_DATA)/Mods" />
 	</Target>
+
 </Project>
