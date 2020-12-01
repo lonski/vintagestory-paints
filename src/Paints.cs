@@ -4,6 +4,7 @@ using Vintagestory.API.Server;
 using System.IO;
 using Vintagestory.API.Config;
 using Vintagestory.GameContent;
+using System.Text.RegularExpressions;
 
 [assembly: ModInfo( "Paints",
 	Description = "Vintage Story mod which adds paint preparation and coloured planks",
@@ -27,7 +28,7 @@ namespace Paints
 		}
 		
 		public override void StartServerSide(ICoreServerAPI api)
-		{				
+		{
 		}
 	}
 }
